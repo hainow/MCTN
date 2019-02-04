@@ -1,11 +1,10 @@
 This repo implements the Multimodal Cyclic Translation Network (MCTN) model 
 for the following paper:
  
-######Found in Translation: Learning Robust Joint Representations by Cyclic Translations Between Modalities
-Hai Pham*, Paul Pu Liang*, Thomas Manzini, Louis-Philippe Morency, Barnabás  
-Poczós. AAAI 2019. 
+###### Found in Translation: Learning Robust Joint Representations by Cyclic Translations Between Modalities
+Hai Pham*, Paul Pu Liang*, Thomas Manzini, Louis-Philippe Morency, Barnabás Poczós. AAAI 2019. 
 
-###Installation 
+### Installation 
 You need to have numpy and the following standard packages which can also be 
 easily installed using `pip`. 
 
@@ -15,14 +14,13 @@ easily installed using `pip`.
 
 `recurrentshop`
 
-``
 
 We also need to mention that the seq2seq code is extended from the following 
 github: https://github
 .com/farizrahman4u/seq2seq. We are grateful for this great repo which really 
 helped us in speeding up our implementation and experiments. 
 
-###Usage
+### Usage
 
 First add the current directory to the $PYTHONPATH by `source set_up`. 
 Second, you need to process your data according to the 
@@ -56,12 +54,14 @@ for general arguments. For architecture specific settings, please extend from
  you can easily follow our standard models in the packages `models` to 
  design new architecture for your specific use case. 
 
-###License 
+### License 
+
 Standard GPL License. See the LICENSE file for more detail. 
 
 Copyright 2019 Hai Pham. 
 
-###Citation 
+### Citation
+ 
 If you use any part of this code in your paper, please cite our [paper](https://arxiv.org/abs/1812.07809)
 ```angular2html
 @article{pham2018found,
