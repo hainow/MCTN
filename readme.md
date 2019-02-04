@@ -16,8 +16,8 @@ easily installed using `pip`.
 
 
 We also need to mention that the seq2seq code is extended from the following 
-github: https://github
-.com/farizrahman4u/seq2seq. We are grateful for this great repo which really 
+github: https://github.com/farizrahman4u/seq2seq. 
+We are grateful for this great repo which really 
 helped us in speeding up our implementation and experiments. 
 
 ### Usage
